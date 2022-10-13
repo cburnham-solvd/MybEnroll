@@ -29,7 +29,7 @@
       margin: 16px;
     }
   </style>
-  <title>Student Enrollment Login</title>
+  <title>user Enrollment Login</title>
 </head>
 <body>
 <script src="jquery-1.8.3.js">
@@ -55,7 +55,7 @@
       <input type="text" class="form-control" placeholder="Search">
     </form>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="/StudentEnrollmentWithMyBatis">Home</a></li>
+      <li><a href="/userEnrollmentWithMyBatis">Home</a></li>
       <li><a href="signup.html">Signup</a></li>
       <li class="active"><a href="login.html">Login</a></li>
       <li class="dropdown"><a href="#" class="dropdown-toggle"
@@ -73,7 +73,7 @@
 <div class="container">
   <div class="jumbotron">
     <div>
-      <h1>Welcome to Online Student Enrollment Login</h1>
+      <h1>Welcome to Online user Enrollment Login</h1>
       <p>Login to explore the complete features!</p>
     </div>
   </div>
@@ -86,10 +86,11 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
+          <%--@elvariable id="userLogin" type="com"--%>
           <form:form id="myForm" method="post"
-                     class="bs-example form-horizontal" commandName="studentLogin">
+                     class="bs-example form-horizontal" commandName="userLogin">
             <fieldset>
-              <legend>Student Enrollment Login Form</legend>
+              <legend>user Enrollment Login Form</legend>
 
               <div class="form-group">
                 <label for="userNameInput" class="col-lg-3 control-label">User

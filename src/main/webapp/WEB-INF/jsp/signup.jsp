@@ -16,7 +16,7 @@ pageEncoding="ISO-8859-1"%>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <title>Student Enrollment Signup</title>
+    <title>user Enrollment Signup</title>
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
     <link href="datepicker/css/datepicker.css" rel="stylesheet" />
     <link href="assets/css/bootstrap-united.css" rel="stylesheet" />
@@ -60,7 +60,7 @@ pageEncoding="ISO-8859-1"%>
             <input type="text" class="form-control" placeholder="Search">
         </form>
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="/StudentEnrollmentWithMyBatis">Home</a></li>
+            <li><a href="/userEnrollmentWithMyBatis">Home</a></li>
             <li class="active"><a href="signup.html">Signup</a></li>
             <li><a href="login.html">Login</a></li>
             <li class="dropdown"><a href="#" class="dropdown-toggle"
@@ -91,7 +91,7 @@ pageEncoding="ISO-8859-1"%>
 <div class="container">
     <div class="jumbotron">
         <div>
-            <h1>Welcome to Online Student Enrollment Signup</h1>
+            <h1>Welcome to Online user Enrollment Signup</h1>
             <p>Its absolutely quick!</p>
         </div>
     </div>
@@ -108,10 +108,11 @@ pageEncoding="ISO-8859-1"%>
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
+                    <%--@elvariable id="user" type="com"--%>
                     <form:form id="myForm" method="post"
-                               class="bs-example form-horizontal" commandName="student">
+                               class="bs-example form-horizontal" commandName="user">
                         <fieldset>
-                            <legend>Student Enrollment Signup Form</legend>
+                            <legend>user Enrollment Signup Form</legend>
 
                             <div class="form-group">
                                 <label for="userNameInput" class="col-lg-3 control-label">User

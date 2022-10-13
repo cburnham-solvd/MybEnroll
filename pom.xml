@@ -36,11 +36,13 @@
       <artifactId>mybatis-spring</artifactId>
       <version>1.1.1</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
     <dependency>
       <groupId>org.springframework</groupId>
-      <artifactId>spring-context-support</artifactId>
-      <version>3.1.1.RELEASE</version>
+      <artifactId>spring-context</artifactId>
+      <version>5.1.6.RELEASE</version>
     </dependency>
+
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-test</artifactId>
@@ -67,6 +69,11 @@
       <artifactId>servlet-api</artifactId>
       <version>2.5</version>
     </dependency>
+    <dependency>
+      <groupId>cglib</groupId>
+      <artifactId>cglib</artifactId>
+      <version>3.0</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -81,6 +88,11 @@
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
+        </plugin>
+        <!-- Package as an executable jar/war -->
+        <plugin>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-maven-plugin</artifactId>
         </plugin>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>

@@ -41,7 +41,7 @@
             <input type="text" class="form-control" placeholder="Search">
         </form>
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="/StudentEnrollmentWithMyBatis">Home</a></li>
+            <li><a href="/userEnrollmentWithMyBatis">Home</a></li>
             <li><a href="signup.html">Signup</a></li>
             <li class="active"><a href="login.html">Login</a></li>
             <li class="dropdown"><a href="#" class="dropdown-toggle"
@@ -57,11 +57,11 @@
 </div>
 
 <!--
-<legend>Student Enrollment Login Success</legend>
+<legend>user Enrollment Login Success</legend>
  -->
 <div class="panel panel-danger">
     <div class="panel-heading">
-        <h3 class="panel-title">Student Enrollment Login failure</h3>
+        <h3 class="panel-title">user Enrollment Login failure</h3>
     </div>
     <div class="panel-body">
         <div class="alert alert-dismissable alert-danger">
